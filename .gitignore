@@ -1,0 +1,53 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.idea/
+.vscode/
+.agents/
+.codex/
+*.swp
+*.swo
+*~
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+*.out
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.key
+*.pem
+
+# Common generated directories
+tmp/
+temp/
+coverage/
+
+# Vivado generated files and directories
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+xsim.dir/
+*.jou
+*.str
+*.wdb
+*.pb
+vivado_pid*.str
+
+# Packaged copies and generated compressed results
+*.zip
+**/SIM/sim_data/*.gz
